@@ -3,8 +3,6 @@
 // 7 -> да
 // 1 -> нет
 
-// Делаем задачу для февраля 2023 года.
-
 System.Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
