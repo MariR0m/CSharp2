@@ -8,9 +8,12 @@ int number = Convert.ToInt32(Console.ReadLine());
 
  if (number < 100 || number > 999)
  {
-    Console.WriteLine("Ошибка. Введено не трехзначное число.");
+    Console.WriteLine("Ошибка. Введено не трехзначное число или отрицательное.");
  }
 
-int a = (number / 10) % 10;
- 
-System.Console.Write("Вторая цифра введенного числа: " + a);
+else if (number > 100 && number < 999)
+{
+   int a = (number / 10) % 10;
+   System.Console.Write("Вторая цифра введенного числа: " + a);
+}
+
